@@ -1,0 +1,52 @@
+#container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 800px;
+}
+
+.hexagon {
+    position: absolute;
+    width: 100px;
+    height: 87px;
+    background-color: #3498db;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    /* Clip path to create a hexagon shape */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.hexagon span {
+    color: white;
+    /* Text color inside hexagon */
+    font-size: 1rem;
+}
+
+
+.hex2 {
+    background-color: #FFD700;
+}
+
+.hex3 {
+    background-color: #3CB371;
+}
+
+.hex4 {
+    background-color: #87CEEB;
+}
+
+.hex5 {
+    background-color: #9370DB;
+}
+
+.hex6 {
+    background-color: #FFA500;
+}
+
+.hex7 {
+    background-color: #20B2AA;
+}
